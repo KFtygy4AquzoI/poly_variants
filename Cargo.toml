@@ -1,0 +1,18 @@
+[package]
+name = "poly_variants"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macro_rules_attribute = "0.2.0"
+count-macro = "0.2.2"
+dont-expand = "0.1.0"
+unstringify = "0.1.4"
+cps = "0.2.3"
+
+#paste = "1.0.15"
+#paste = { path = "../paste" }
+
+stateful_macro_rules = { git = "https://github.com/KFtygy4AquzoI/stateful_macro_rules", rev = "96f25ceba79e9622ec1329f3780b1bf4c95c8881" }
+macro_rules_rec = { git = "https://github.com/KFtygy4AquzoI/macro_rules_rec", rev = "ff0872c16e259ee592175ec6a91b22fd39dc35bc" }
+paste = { git = "https://github.com/KFtygy4AquzoI/paste", rev = "d57e0e659f99551c28b0654097e326c32b65c196" }
